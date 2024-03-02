@@ -1,0 +1,96 @@
+.head{
+    background-color: rgb(30, 30, 48);
+    display: flex;
+ 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+Height: 1086px;
+Top: 0px;
+Left: 0px;
+
+}
+
+.ad_l_esas{
+  background-color: red;
+    display: flex;
+    Width: 830px;
+Height: 411.41px;
+/* Top: 278px;
+Left: 310px; */
+
+}
+.ad_l_welcome{
+    background-color: rgb(73, 73, 74);
+    Width: 425px;
+    Height: 411.41px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+/* Top: 278px;
+Left: 310px; */
+
+}
+.ad_l_h1{
+    Font: Montserrat;
+Font-weight: 700;
+Font-size: 35px;
+
+Letter-spacing: 0%;
+text-align: center;
+/* Width: 337px;
+Height: 42px;
+Top: 336px; */
+color: rgb(199, 199, 199);
+
+
+}
+.ad_l_formik{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+    padding-left: 47.6px;
+  
+   
+
+}
+.ad_l_formik input{
+    background-color: rgb(90, 91, 112);
+    Width: 318.8px;
+Height: 50px;
+Top: 419.95px;
+Left: 357.6px;
+padding-left: 40.4px;
+border-radius: 4px;
+Font: Roboto;
+Font-weight: 400;
+Font-size: 18px;
+
+Letter-spacing: 0%;
+text-align: left
+
+}
+.ad_l_formik button{
+    background-color:rgb(192, 53, 162);
+    Width: 318.8px;
+Height: 50px;
+Top: 419.95px;
+Left: 357.6px;
+padding-left: 40.4px;
+border-radius: 4px;
+Font: Roboto;
+Font-weight: 500px;
+Font-size: 25px;
+
+Letter-spacing: 0%;
+text-align: center;
+color:rgb(255, 255, 255)
+
+
+}
+.error{
+    color:red;
+    Font-size: 15px;
+}

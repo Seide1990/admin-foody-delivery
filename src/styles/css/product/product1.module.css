@@ -1,0 +1,323 @@
+
+
+.ProductName{
+    width: 1210px;
+height: 73px;
+
+border-radius: 14px;
+background: #27283C;
+
+margin-left: 280px;
+margin-top: 10px;
+padding:20px;
+
+}
+.ProductName h1{
+
+
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.01em;
+text-align: left;
+color : #C7C7C7;
+}
+.product_box{
+    margin-top: 30px;
+    margin-left: 280px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin-right: 20px;
+    height: 400px;
+     gap:40px ;
+     flex-wrap: wrap;
+     overflow-y: scroll;
+}
+.ProductCard{
+width: 180px;
+height: 273px;
+/* margin-top: 30px;
+margin-left: 280px; */
+border-radius: 5px;
+padding: 10px;
+background-color: white;
+}
+.ProductCardImg{
+    width: 160.33px;
+height: 158px;
+margin-top: 13px;
+/* margin-left: 13px; */
+/* top: 220px
+left: 319.67px */
+
+}
+.ProductCard h2{
+    width: 93.52px;
+height: 32px;
+margin-left: 13px;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #1E1E30;
+}
+.ProductCard p{
+    width: 93.52px;
+height: 32px;
+margin-left: 13px;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #8E8E93;
+
+}
+.ProductCard_update{
+   
+    display: flex;
+
+  /* margin-left: 13px; */
+
+
+}
+.ProductCard_del{
+    /* margin-left: 25px; */
+}
+
+.pagination{
+    margin-top: 40px;
+    /* width: 300px; */
+    /* background-color: aqua; */
+    margin-left: 280px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    padding-top: 30px;
+    color: white;
+
+top: 20px;
+left: 20px;
+padding: 6px, 9.07px, 6px, 8px;
+justify-content: center;
+align-items: center;
+
+}
+.pagination div{
+   
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    text-align: center;
+    /* border: 1px solid ; */
+    border: 1px solid #EC5CF8;
+    
+
+    
+    }
+    .pagination div:hover {
+        background-color: #EC5CF8;;
+        color: white;
+      }
+      .pagination div:active {
+        background-color: #cb0946;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

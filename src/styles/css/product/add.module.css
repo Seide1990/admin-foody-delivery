@@ -1,0 +1,114 @@
+
+.addfix{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    /* align-items: center; */
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.toggleMenu{
+    position: absolute;
+height: 100%;
+background: #38394E;
+color: #C7C7C7;
+overflow-y: scroll;
+
+}
+.toggleMenu h1{
+    width: 305.63px;
+height: 32px;
+margin-top: 28px;
+margin-left: 20px;
+
+    font-family: Roboto;
+font-size: 25px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.01em;
+text-align: left;
+
+}
+.toggleMenu p{
+    width: 252px;
+height: 32px;
+margin-top: 10px;
+margin-left: 20px;
+
+}
+.divDownload{
+    background-color:  #43445A;
+    border-radius: 10px;
+   
+    width: 526px;
+height: 122px;
+margin-top: 10px;
+margin-left: 254px;
+
+}
+.addProductInput{
+    width: 526px;
+/* height: 550px; */
+margin: 20px;
+margin-left: 254px;
+background: #43445A;
+border-radius: 10px;
+overflow-y: scroll;
+
+
+}
+.addProductInput form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top:30px;
+    margin-bottom: 30px;
+  
+}
+.addProductInput form>input{
+    width: 474px;
+height: 46px;
+margin-left: 25px;
+background: #5A5B70;
+border-radius: 10px;
+
+
+}
+.addProductInput form>textarea{
+    width: 474px;
+height: 133px;
+margin-left: 25px;
+background: #5A5B70;
+border-radius: 10px;
+
+}
+.addProductInput form>label{
+
+margin-left: 25px;
+}
+.toggleMenuButton{
+    margin:30px;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid  #43445A;
+    ;
+}
+.toggleMenuCancel{
+    width: 400px;
+height: 50px;
+margin: 20px;
+border-radius: 14px;
+background-color: #43445A ;
+
+
+}
+.toggleMenuCreate{
+    width: 400px;
+height: 50px;
+margin: 20px;
+border-radius: 14px;
+background-color:#C035A2;
+}
