@@ -90,46 +90,6 @@ color: #8E8E93;
     /* margin-left: 25px; */
 }
 
-.pagination{
-    margin-top: 40px;
-    /* width: 300px; */
-    /* background-color: aqua; */
-    margin-left: 280px;
-    display: flex;
-    flex-direction: row;
-    gap:20px;
-    padding-top: 30px;
-    color: white;
-
-top: 20px;
-left: 20px;
-padding: 6px, 9.07px, 6px, 8px;
-justify-content: center;
-align-items: center;
-
-}
-.pagination div{
-   
-    width: 80px;
-    height:80px;
-    border-radius: 50%;
-    text-align: center;
-    /* border: 1px solid ; */
-    border: 1px solid #EC5CF8;
-    
-
-    
-    }
-    .pagination div:hover {
-        background-color: #EC5CF8;;
-        color: white;
-      }
-      .pagination div:active {
-        background-color: #cb0946;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
-      }
-    
 
 
 

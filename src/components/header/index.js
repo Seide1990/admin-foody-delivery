@@ -25,27 +25,42 @@ export default function Header(){
         "en",
         "rus"
     ]
-const array_add={
-title:"Add product",
-uploade:"Upload your product image",
-information:"Add your Product description and necessary information",
-input:[
-  {comp:"input",
-    id:"Name",
-  type:"text"},
-  {comp:"textarea",
-    id:"Description",
-  type:"textarea"},
-  {
-    comp:"input",
-    id:"Price",
-  type:"number"},
-  {comp:"input",
-  id:"Restaurants",
-type:"text"},]
+    const [editProduct, setEditProduct] = useState({
+      name: "",
+      description:"",
+      img_url: "",
+      rest_id: "",
+      price: "",
+    });
+    const array_add={
+      title:"Edit product",
+      uploade:"Upload your product image",
+      information:"Edit your Product description and necessary information",
+      input:[
+        {comp:"input",
+          id:"name",
+        type:"text",
+      val:editProduct.name},
+        {comp:"textarea",
+          id:"description",
+        type:"textarea",
+      val:editProduct.description},
+      {comp:"imput",
+      id:"img",
+    type:"text",
+  val:editProduct.img_url},
+        {
+          comp:"input",
+          id:"price",
+        type:"number",
+      val:editProduct.price},
+        {comp:"input",
+        id:"restaurants",
+      type:"text",
+    val:editProduct.rest_id}]
+     
+      }
 
-
-}
  
       const handleChange = (event) => {
         const value = event.target.value
@@ -74,7 +89,7 @@ return(
 + ADD PRODUCT
         </button>
         {isVisible && (
-       <Add setIsVisible={setIsVisible} data={array_add}></Add>
+      <Add setIsVisible={setIsVisible} data={array_add} secim={"add"}  setEditProduct={setEditProduct}></Add>
  //
     )}
      
@@ -102,15 +117,15 @@ return(
       </li>
       <li>
       <Image  className={ styles.dashboard_image}src={restaurant}></Image>
-        <Link href="/admin"className={styles.dashboard_link}>Restaurant</Link>
+        <Link href="/admin/restaurant"className={styles.dashboard_link}>Restaurant</Link>
       </li>
       <li>
       <Image  className={ styles.dashboard_image}src={category}></Image>
-        <Link href="/admin"className={styles.dashboard_link}>Category</Link>
+        <Link href="/admin/category"className={styles.dashboard_link}>Category</Link>
       </li>
       <li>
       <Image  className={ styles.dashboard_image}src={orders}></Image>
-        <Link href="/admin"className={styles.dashboard_link}>Orders</Link>
+        <Link href="/admin/order"className={styles.dashboard_link}>Orders</Link>
       </li>
       <li>
       <Image  className={ styles.dashboard_image}src={offer}></Image>

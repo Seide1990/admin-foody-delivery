@@ -1,0 +1,59 @@
+.restCard{
+    width: 247px;
+/* height: 83px; */
+margin-top: 30px;
+margin-left: 280px;
+border-radius: 5px;
+background-color:  #FFFFFF;
+display:  flex;
+gap: 10px;
+;
+
+}
+.restCard_box1{
+ /* width: 182px; */
+height: 57px;
+margin: 10px;
+
+}
+.restCard_box2{
+    height: 57px;  
+    margin-top: 10px;
+    display: flex;
+flex-direction: column;
+gap:5px;
+
+}
+.restCard_box2 h2 {
+    font-family: Roboto;
+font-size: 17px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.01em;
+text-align: left;
+color : #1E1E30;
+
+
+}
+.restCard_box2 p{
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #828282;
+
+
+
+}
+.restCard_box3{
+ width: 24px;
+height: 57px;
+display: flex;
+flex-direction: column;
+gap:10px;
+margin: 10px;
+
+
+}

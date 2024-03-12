@@ -46,7 +46,10 @@ margin-left: 20px;
     width: 526px;
 height: 122px;
 margin-top: 10px;
-margin-left: 254px;
+display: flex;
+justify-content: center;
+align-items: center;
+/* margin-left: 254px; */
 
 }
 .addProductInput{
@@ -111,4 +114,9 @@ height: 50px;
 margin: 20px;
 border-radius: 14px;
 background-color:#C035A2;
+}
+.uplimage{
+    display: flex;
+    flex-direction: row;
+gap:105px;
 }
