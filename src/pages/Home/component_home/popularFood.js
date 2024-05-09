@@ -2,10 +2,10 @@
 import Image from "next/image";
 import React from 'react';
 import Features_box from './features_box';
-import sekil1 from "../../../styles/image/Home/Rectangle 49 (1).svg";
-import sekil2 from "../../../styles/image/Home/Rectangle 49.png";
-import sekil3 from "../../../styles/image/Home/Rectangle 49.svg"
-export default function Features(){
+import sekil1 from "../../../styles/image/Home/Group 309 (1).svg";
+import sekil3 from "../../../styles/image/Home/Group 309 (2).svg";
+import sekil2 from "../../../styles/image/Home/Group 310.svg";
+export default function PopularFood(){
 
 
 
@@ -14,7 +14,7 @@ export default function Features(){
         <>  
         <div className="gap-8 flex flex-col">
             <div className='flex flex-col justify-center items-center '>
-       <h2 className='text-2xl font-bold'>Features</h2>
+       <h2 className='text-2xl font-bold'>Our Popular Update New Foods</h2>
        <p className="text-center">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
        </div>
        <div className="flex flex-col justify-center items-center gap-10 xl:justify-around xl:flex-row">

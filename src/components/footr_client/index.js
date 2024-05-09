@@ -19,7 +19,7 @@ export default function Footr_client(){
 return(
     <>
 
-    <div className='flex flex-col justify-center items-center gap-10'>
+    <div className='flex flex-col justify-center items-center gap-10 pt-10'>
     <div className=' flex flex-row gap-3 justify-center xl:justify-start'>
  <div className=' w-80 m-8  '>
 

@@ -2,9 +2,9 @@
 import Image from "next/image";
 import React from 'react';
 
-import sekil1 from "../../../styles/image/Home/Rectangle 51.svg";
-import sekil2 from "../../../styles/image/Home/Rectangle 51 (1).svg";
-import sekil3 from "../../../styles/image/Home/Rectangle 51.png";
+import sekil1 from "../../../styles/image/Home/Group 309 (1).svg";
+import sekil3 from "../../../styles/image/Home/Group 309 (2).svg";
+import sekil2 from "../../../styles/image/Home/Group 310.svg";
 import Publication_box from "./publication_box";
 export default function Publication(){
 
