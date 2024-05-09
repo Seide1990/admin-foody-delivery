@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import  Styles  from "../../styles/css/pagenation/pagenation.module.css"
 export default function Pagination({length_data,setstartpage,setendpage,count_visit}){
    
@@ -12,32 +12,44 @@ export default function Pagination({length_data,setstartpage,setendpage,count_vi
           }
           const onClickPrew=()=>{
             
-            if(st_next_pr!=0){
-                useid_but(id_but-1);
+            console.log(id_but)
+             if(st_next_pr!=0){
+ useid_but(id_but-1);
+                
                 usest_next_pr(st_next_pr-1);
                 useend_next_pr(end_next_pr-1);
                  setstartpage(id_but*count_visit);
            setendpage((id_but+1)*count_visit);
-            }
+             }
           }
              const onClickNext=()=>{
-
-            if(end_next_pr!=length_data){
+              
               console.log(id_but)
-              useid_but(id_but+1);
+             if(end_next_pr!=length_data){
+       useid_but(id_but+1);
+              
                 usest_next_pr(st_next_pr+1);
                 useend_next_pr(end_next_pr+1);
                 setstartpage(id_but*count_visit);
                  setendpage((id_but+1)*count_visit);
-             }
+              }
           }
           const onPageChange = (id) => {
+            console.log(id_but)
             useid_but(id);
-            console.log(id);
+            console.log(id_but)
+ console.log(id)
                setstartpage(id*count_visit);
                 setendpage((id+1)*count_visit);
                };
-
+            //    useEffect(() => {
+              
+            //     return () => {
+            //       connection.disconnect();
+            //     };
+            //   }, [serverUrl, roomId]);
+            //   // ...
+            // }
 
 return(
     <>

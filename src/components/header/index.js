@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { useState } from "react";
 import styles from "./header.module.css";
-import img from "@/styles/image/header/admin.png"
+import img_2 from "@/styles/image/header/admin.png"
 import Link from 'next/link';
 import dashboard from "@/styles/image/header/dashboard1.png"
 import products from "@/styles/image/header/storefront.png"
@@ -28,10 +28,10 @@ export default function Header(){
     const [editProduct, setEditProduct] = useState({
       name: "",
       description:"",
-      img_url: "",
       rest_id: "",
       price: "",
     });
+    const [editimg,seteditimg]=useState()
     const array_add={
       title:"Edit product",
       uploade:"Upload your product image",
@@ -45,10 +45,10 @@ export default function Header(){
           id:"description",
         type:"textarea",
       val:editProduct.description},
-      {comp:"imput",
-      id:"img",
-    type:"text",
-  val:editProduct.img_url},
+  //     {comp:"imput",
+  //     id:"img",
+  //   type:"text",
+  // val:editProduct.img_url},
         {
           comp:"input",
           id:"price",
@@ -89,7 +89,7 @@ return(
 + ADD PRODUCT
         </button>
         {isVisible && (
-      <Add setIsVisible={setIsVisible} data={array_add} secim={"add"}  setEditProduct={setEditProduct}></Add>
+      <Add setIsVisible={setIsVisible} data={array_add} secim={"add"} editProduct={editProduct} seteditimg={seteditimg} editimg={editimg} setEditProduct={setEditProduct}></Add>
  //
     )}
      
@@ -100,7 +100,7 @@ return(
   <option value="option2">Option 2</option>
   <option value="option3">Option 3</option>
 </select>
-<Image src={img} width={58.54} height={40}alt="" />
+<Image src={img_2} width={58.54} height={40}alt="" />
        < div className={styles.admin_img}>Admin</div>
     </div>
     </div>

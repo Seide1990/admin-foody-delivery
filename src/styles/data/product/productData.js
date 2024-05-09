@@ -3,7 +3,7 @@
   {
     "name": "spagetti",
     "description": "string",
-    "img_url": "@/styles/image/product/Background.svg",
+    "img_url": "@/styles/image/product/edit.png",
     "rest_id": "string",
     "price": 0
   }
