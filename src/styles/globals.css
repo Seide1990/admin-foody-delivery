@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-body{
+.bg_body{
     background-color: rgb(16, 17, 17);
 
 }

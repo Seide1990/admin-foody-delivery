@@ -13,7 +13,7 @@ export default function Home(){
 
     return(
         <> <Layout_client> 
-            <div className="bg-slate-100 pt-10 ">
+            <div className="bg-slate-100  ">
             <Basliq></Basliq>
             </div> 
              

@@ -11,7 +11,7 @@ export default function Basliq(){
     return(
         <>  
             
-        <div className='flex  flex-col justify-center items-center gap-8  p-20  bg-slate-100 border-t-2 border-gray-300 lg:flex-row-reverse '>
+        <div className='flex  flex-col justify-center items-center gap-8  p-20 pt-5  bg-slate-100 border-t-2 border-gray-300 lg:flex-row-reverse '>
            <div>  
              <Image  className="lg:bg-black rounded-3xl justify-end" width={457} height={359} src={sekil1}></Image>
              </div>
